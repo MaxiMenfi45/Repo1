@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+.body_index{
+background-color:#cbcd69;
+}
+
+.logo img{
+    height: 150px;
+}
+
+.header_index{
+    background-color: #d2bead;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.menu ul{
+
+    display: flex;
+    align-items: center;
+}
+
+.menu li{
+    font-size: 20px;
+    margin-right: 4rem;
+}
+
+.menu ul li  a:hover{
+    color: #f67165;
+}
+
+a li{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.h1_index{
+    text-align: center;
+    margin: 2rem 2rem 2rem 2rem;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+/*MAIN Con GRID*/
+
+.main_index{
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr; 
+    justify-content: center;
+    grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr;
+    margin-top: 4rem;
+    grid-gap: 1rem;
+    grid-template-areas: 
+                            "main_tex main_tex main_tex"
+                            "main_img main_img main_img"
+                            "main_tex_2 main_tex_2 main_tex_2"
+                            "main_img_2 main_img_2 main_img_2"
+
+
+    ;
+    
+
+}
+
+.main_img{
+    height: 500px;
+    grid-area: main_img;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.main_tex{
+    grid-area: main_tex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+.main_tex_2{
+    grid-area: main_tex_2;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+.main_img_2{
+    grid-area: main_img_2;
+    height: 500px;
+    margin-left: 25%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer_index{
+    font-size: 25px;
+    text-align: center;
+}
+/*Estilos DE Galeria*/
+
+.body_img{
+   background-color: #d2bead;
+}
